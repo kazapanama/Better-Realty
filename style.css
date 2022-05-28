@@ -33,7 +33,7 @@ header{
     top:0;
     background-color: rgba(0, 0, 0, 0.55);
     width:100vw;
-    
+    z-index: 999;
 }
 
 nav ul{
@@ -70,7 +70,7 @@ nav li {
     
 }
 
-h1{
+.index-h1{
     padding-top: 50px;
     color:white;
     font-size:90px;
@@ -124,6 +124,10 @@ h1{
     
 }
 
+a{
+    text-decoration: none;
+}
+
 .categories-item-1{
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +170,7 @@ h1{
     content: " >";
 }
 
-h2{
+.index-title{
     font-size:60px;
     color:#8D3500;
     text-align: center;
@@ -319,5 +323,148 @@ footer > .wrapper > :nth-child(3){
 
 .qr{
     width:175px;
-    margin-top:40px;
+    margin-top:30px;
+}
+
+.about-us-lb{
+    width: 350px;
+}
+
+
+
+
+.about-us-h1{
+    font-size: 86px;
+    color:000;
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.about-us-p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us-wrapper{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.video {
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#about-us-block {
+    margin-bottom: 100px;
+}
+
+
+#about-us-block > .wrapper {
+    display: flex;
+}
+
+.about-city-title{
+    font-size:50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#floor-plan > .wrapper {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+} 
+
+.border-base{
+    background-color:white;
+    border:1px solid black;
+   
+}
+
+.border-mask{
+    
+    background-color:white;
+    border-radius:20px;
+    
+    
+}
+
+.floor-map{
+    padding: 40px;
+    
+    
+}
+
+#floor-plan{
+    margin-bottom: 200px;
+}
+
+#floor-plan .wrapper span {
+    margin-top:20px;
+    text-align: center;
+}
+
+.wrapper ul  {
+    list-style-type: none;
+}
+
+.wrapper ul li {
+    font-size: 30px;
+}
+
+#our-company .wrapper div {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+#our-company{
+    margin-bottom: 100px;
+}
+
+.big-h1{
+    font-size: 86px;
+    text-align: center;
+}
+
+#about-city{
+    margin-top:200px;
+    margin-bottom: 50px;
+    
+}
+
+#about-city .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center
+} 
+
+.city-image{
+    width:530px;
+    height: 380px;
+    
+}
+
+.city-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    margin-bottom:20px;
+}
+
+.action-link{
+     
+    margin-top: 50px;
+    text-decoration: none;
+    color:white;
+    border-radius: 31px;
+    padding: 31px 60px;
+    background: linear-gradient(90deg, rgba(235,149,98,1) 0%, rgba(224,207,167,1) 100%);
 }
