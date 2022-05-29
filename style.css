@@ -468,3 +468,79 @@ footer > .wrapper > :nth-child(3){
     padding: 31px 60px;
     background: linear-gradient(90deg, rgba(235,149,98,1) 0%, rgba(224,207,167,1) 100%);
 }
+
+#apartments .wrapper{
+    margin-top:200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 50px;
+}
+
+#apartments .wrapper :first-child :nth-child(3) {
+    margin-bottom: 80px;
+    
+}
+
+#apartments h1 {
+        font-size: 86px;
+        color:000;
+        margin-bottom: 80px;
+    
+}
+
+#apartments  p {
+    font-size: 16px;
+    
+    margin-bottom: 20px;
+}
+
+#items h2{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#items .wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content: space-around;
+}
+
+#items{
+    margin-bottom: 100px;
+}
+
+.a-item{
+    width:500px;
+    height: 240px;
+    padding: 0 20px;
+    border: 1px #8D3500 solid;
+    border-radius: 1em;
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.a-item-image{
+    width:212px;
+    height: 191px;
+}
+
+.a-item h3{
+    font-size:30px;
+}
+
+.a-item span{
+    font-size:16px;
+}
+
+.a-item-desk{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 191px;
+}

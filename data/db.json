@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "itemsTitle": "Квартира 1",
+      "isSold":true,
+      "mainTitle": "Однокімнатна квартира",
+      "rooms": 1,
+      "area": "36.7",
+      "livingArea":"17",
+      "mainImage":"../img/items/item-appartment-main.png",
+      "planImage":"../img/items/item-1/plan.png",
+      "modelImage":"../img/items/item-1/model.png"
+    },
+    {
+      "id": 2,
+      "itemsTitle": "Квартира 2",
+      "isSold":false,
+      "mainTitle": "Двокімнатна квартира",
+      "rooms": 2,
+      "area": "56.5",
+      "livingArea":"30",
+      "mainImage":"../img/items/item-appartment-main.png",
+      "planImage":"../img/items/item-2/plan.png",
+      "modelImage":"../img/items/item-2/model.png"
+    },
+    {
+      "id": 3,
+      "itemsTitle": "Квартира 3",
+      "isSold":false,
+      "mainTitle": "Однокімнатна квартира",
+      "rooms": 1,
+      "area": "52.7",
+      "livingArea":"24",
+      "mainImage":"../img/items/item-appartment-main.png",
+      "planImage":"../img/items/item-3/plan.png",
+      "modelImage":"../img/items/item-3/model.png"
+    },
+    {
+      "id": 4,
+      "itemsTitle": "Квартира 4",
+      "isSold":false,
+      "mainTitle": "Однокімнатна квартира",
+      "rooms": 1,
+      "area": "33.7",
+      "livingArea":"15",
+      "mainImage":"../img/items/item-appartment-main.png",
+      "planImage":"../img/items/item-4/plan.png",
+      "modelImage":"../img/items/item-4/model.png"
+    },
+    {
+      "id": 5,
+      "itemsTitle": "Квартира 5",
+      "isSold":false,
+      "mainTitle": "Однокімнатна квартира",
+      "rooms": 1,
+      "area": "41",
+      "livingArea":"19",
+      "mainImage":"../img/items/item-appartment-main.png",
+      "planImage":"../img/items/item-5/plan.png",
+      "modelImage":"../img/items/item-5/model.png"
+    }
+  ]
+}
