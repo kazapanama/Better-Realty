@@ -4,7 +4,7 @@ let template='';
 
 async function  getItems(){
     
-    let url = '../data/db.json'
+    let url = 'https://raw.githubusercontent.com/kazapanama/Better-Realty/master/data/db.json'
     
     const response = await fetch(url);
     const obj = await response.json();

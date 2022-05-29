@@ -544,3 +544,44 @@ footer > .wrapper > :nth-child(3){
     justify-content: space-around;
     height: 191px;
 }
+
+#item-full .wrapper :first-child{
+    display: flex;
+    gap:25px;
+
+}
+
+#item-full{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.item-full-start{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.item-full-start h1{
+    font-size:34px;
+    
+}
+
+.item-full-main{
+    height: 720px;
+}
+
+.item-action-link{
+   width:150px;
+     text-decoration: none;
+    color:white;
+    border-radius: 1em; 
+    padding: 20px 40px; 
+    background: linear-gradient(90deg, rgba(235,149,98,1) 0%, rgba(224,207,167,1) 100%);
+
+}
+
+.item-full-img{
+    width:400px;
+    height: 390px;
+}
