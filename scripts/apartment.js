@@ -35,15 +35,27 @@ async  function renderItem(){
         </section>
     
     
-        <section>
+        <section id="item-second-part">
             <div class="wrapper">
-                <div>
-                <img src="${item.modelImage}" class="item-full-img">
-                <img src="${item.planImage}"class="item-full-img">
+                     <div>
+                    <img src="${item.modelImage}" class="item-full-img">
+                     <img src="${item.planImage}"class="item-full-img">
+                    </div>
+            
+
+                 <div class="info-bg">
+                     <div>
+                        <span>${item.mainTitle}</span>
+                        <span>Загальна площа до ${item.area}м2</span>
+                      </div>
+                      <div>
+                    <span>Житлова площа до ${item.livingArea}м2</span>
                 </div>
             </div>
+
+            <p>При передачі квартири власнику в квартирі будуть вхідні двері, вікна, балконний блок, газовий котел, батареї, чорнова штукатурка стін, чорнова стяжка підлоги.</p>
         
-            
+            </div>
         </section>
     
     
