@@ -11,15 +11,17 @@
 body{
     font-family: 'Roboto', sans-serif;
     width:100vw;
-    overflow-x: hidden;
+ 
 }
+
+
 
 
 
 
 header .wrapper{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
     height: 128px;
@@ -380,6 +382,9 @@ footer  .wrapper > :nth-child(3){
     
 }
 
+
+    
+
 #about-us-block {
     margin-bottom: 100px;
 }
@@ -443,9 +448,10 @@ footer  .wrapper > :nth-child(3){
     font-size: 30px;
 }
 
-#our-company .wrapper div {
+.partner-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 120px;
 }
 
@@ -561,6 +567,12 @@ footer  .wrapper > :nth-child(3){
 
 .a-item span{
     font-size:16px;
+}
+
+.a-item-link{
+    color:#8D3500;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .a-item-desk{
@@ -804,6 +816,151 @@ footer  .wrapper > :nth-child(3){
     }
 
 
+    #about-city{
+        margin-top:150px;
+    }
+
+    .city-images{
+        flex-direction: column;
+    }
+
+    .big-h1{
+    
+        font-size: 3rem;
+    }
+
+    .why-p{
+        margin-bottom: 50px;
+    }
+
+    #about-us-block{
+        margin-bottom:0;
+    }
+
+    #about-us-block .wrapper{
+        flex-direction: column;
+    }
+
+    .about-us-wrapper{
+        width:100%;
+    }
+
+    .about-us-h1{
+        font-size: 3rem;
+        margin-top:20px;
+        margin-bottom:30px;
+    }
+
+    
+    .about-us-p{
+        font-size: 1.5em;
+    }
+
+    .video{
+        display:none;
+    }
+
+
+    .floor-map{
+        width:100%;
+    }
+
+    #floor-plan{
+        margin-bottom: 40px;
+    }
+
+    #floor-plan  .wrapper span{
+        font-size:1.5em
+    }
+
+
+
+    .about-city-title{
+        font-size: 3rem;
+    }
+
+
+
+    .partner-container{
+        flex-direction: column;
+        gap:40px;
+    }
+
+
+    #apartments .wrapper{
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    #apartments .wrapper h1{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #apartments .wrapper p{
+        font-size: 1.5em;
+        text-align: center;
+        
+    }
+
+    .main-link{
+        font-size: 1.3em;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    #apartments .wrapper :first-child :nth-child(3){
+        margin-bottom: 30px;
+    }
+
+
+    .a-item{
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        
+    }
+
+    .a-item-image{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    #items .wrapper{
+        gap:80px;
+    }
+
+    .a-item-desk > span{
+        font-size: 1.5em;
+    }
+
+    .a-item-link{
+        font-size: 1.5em;
+        padding-bottom:20px;
+    }
+
+
+    #contacts-block .wrapper{
+     flex-direction: column;
+     
+    }
+
+  
+    #phone-img{
+        display: none;
+    }
+
+    .list-item{
+        font-size: 1.5em;
+    }
+    
+
+   
+
+
+
 }
 
 
@@ -830,9 +987,173 @@ footer  .wrapper > :nth-child(3){
         margin:0;
     }
     
+    .about-us-wrapper{
+        width:100%;
+    }
     
+    .video{
+        display:none;
+    }
 
 
+    #about-us-block{
+        margin-bottom: 0;
+    }
+
+    #floor-plan  .wrapper span{
+        font-size:1.5em
+    }
+
+    #floor-plan{
+        margin-bottom: 40px;
+    }
+
+
+    .partner-container{
+      
+        gap:30px;
+    }
+
+    #apartments .wrapper {
+        flex-direction: column;
+        margin-top: 150px;
+        text-align: center;
+       
+        
+    }
+
+    .main-link{
+        font-size: 1.3em;
+        display: block;
+        margin-bottom: 50px;
+        width:50%;
+    }
+
+    #apartments .wrapper :first-child{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    #apartments .wrapper :first-child p {
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
+    #apartments .wrapper :first-child h1{
+        margin-bottom: 20px;
+    }
+
+  
+    #contacts-block .wrapper >:last-child{
+        display: none;
+    }
+
+    #item-full .wrapper :first-child{
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+
+    #item-full .wrapper :last-child{
+        align-items:center;
+    }
+
+
+
+    #item-full .wrapper :first-child p {
+        font-size: 1.5em;
+    }
+
+    .item-action-link{
+        display: block;
+        width: 50%;
+        text-align: center;
+    }
+
+
+    #item-second-part .wrapper > div {
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .item-full-img{
+        width:40%;
+        height: 40%;
+    }
+
+
+    .info-bg :first-child {
+        flex-direction: column;
+        justify-content: start;
+        gap:0;
+
+    }
+
+
+    .city-image{
+        width:100%
+    }
+
+
+    .mob-menu{
+        display:none;
+        position: fixed;
+        top:0;
+        
+        background-color: rgba(0,0,0,0.5);
+        width: 100vw;
+        height: 100vh;
+        z-index: 9999;
+        
+    }
     
+    .mob-menu-bg{
+        
+        position: fixed;
+        right:0;
+        height: 100vh;
+        background-color:white;
+        border-radius:2em;
+        border-left:2em solid #8D3500;
+       
+        
+        
+        width:max(50vw,400px);
+        
+    }
+    
+    .nav-link{
+        font-size: 2.5em;
+        padding-bottom: 20px;
+        color:black;
+        font-weight: 500;
+        padding: 5px 33px;
+        border : 1px solid #8D3500;
+
+        border-radius: 2em;
+        
+    }
+
+    .mob-menu-ul{
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:50px;
+        padding-right: 20px;
+        text-decoration: none;
+        list-style-type: none;
+
+        padding-top: 100px;
+    }
+
+
+
+
+
 
 }

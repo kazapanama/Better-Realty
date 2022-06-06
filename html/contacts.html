@@ -9,19 +9,39 @@
 </head>
 <body>
 
+    
+    
+    
     <header>
         <div class="wrapper">
-            <a href="../index.html"><img src="../img/index/logo.svg"></a>
+            <a href="index.html"><img src="../img/index/logo.svg" class="logo-top"></a>
+            <img src="../img/index/hamburger.png" class="hamburgerBtn">
+            
             <nav>
                 <ul>
-                    <li><a href="/html/aboutCity.html" class="nav-link">Про місто</a></li>
-                    <li><a href="/html/aboutUs.html" class="nav-link">Про нас</a></li>
-                    <li><a href="/html/apartmentsList.html" class="nav-link">Центр продажу </a></li>
-                    <li><a href="/html/contacts.html" class="nav-link">Контакти</a></li>
+                    <li><a href="./html/aboutCity.html" class="nav-link">Про місто</a></li>
+                    <li><a href="./html/aboutUs.html" class="nav-link">Про нас</a></li>
+                    <li><a href="html/apartmentsList.html" class="nav-link">Центр продажу </a></li>
+                    <li><a href="./html/contacts.html" class="nav-link">Контакти</a></li>
                 </ul>
             </nav>
+            
         </div>
     </header>
+
+    <div class="mob-menu">
+        <div class="mob-menu-bg">
+            <ul class="mob-menu-ul">
+                <li><a href="./html/aboutCity.html" class="nav-link">Про місто</a></li>
+                <li><a href="./html/aboutUs.html" class="nav-link">Про нас</a></li>
+                <li><a href="./html/apartmentsList.html" class="nav-link">Центр продажу</a></li>
+                <li><a href="./html/contacts.html" class="nav-link">Контакти</a></li>
+            </ul>
+         </div>
+    </div>
+  
+
+
 
     <sectinon id="contacts-block">
        <div class="wrapper">
@@ -46,7 +66,7 @@
         </div>
         
             <div>
-                <img src="../img/contacts/iPhone 13 Pro.png" alt="">
+                <img src="../img/contacts/iPhone 13 Pro.png" alt="" id="phone-img">
             </div>
         
 
@@ -93,5 +113,10 @@
             </div>
     </footer>
     
+
+
+    <script src="../scripts/mobile-menu.js">    
+    </script>
+
 </body>
 </html>

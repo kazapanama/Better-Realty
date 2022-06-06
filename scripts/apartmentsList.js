@@ -17,7 +17,7 @@ async function  getItems(){
                     <div class="a-item-desk">
                         <h3>${apart.itemsTitle}</h3>
                         <span>Квартира в ЖК Комфорт. Ідеальне інвестиційне рішення як собі, так і для здачі в оренду.</span>
-                        <a href="apartment.html?id=${apart.id}">Детальніше</a>
+                        <a href="apartment.html?id=${apart.id} " class="a-item-link">Детальніше</a>
                     </div>
 
                     </div> 
