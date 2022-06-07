@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-
-
 *{
     margin:0;
     padding:0;
@@ -11,19 +9,13 @@
 body{
     font-family: 'Roboto', sans-serif;
     width:100vw;
- 
+    overflow-x: hidden;
 }
-
-
-
-
-
 
 header .wrapper{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    
     height: 128px;
 }
 
@@ -31,6 +23,7 @@ header .wrapper{
 .wrapper{
     max-width:1140px;
     margin:0 auto;
+    overflow: hidden;
 }
 
 header{
@@ -44,7 +37,6 @@ header{
 .hamburgerBtn{
     display: none;
 }
-
 
 nav ul{
     display:flex;
@@ -60,8 +52,11 @@ nav li {
 .nav-link{
     text-decoration: none;
     font-size:29px;
-    /* margin-left:72px; */
     color:#FFF;
+}
+
+.nav-link:hover{
+    color:#8D3500;
 }
 
 #main{
@@ -70,7 +65,6 @@ nav li {
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    
 }
 
 #main .wrapper{
@@ -79,10 +73,6 @@ nav li {
     align-items:center;
     flex-wrap: wrap;
     height: 100vh;
-    
-    
-    
-    
 }
 
 .index-h1{
@@ -109,6 +99,11 @@ nav li {
     background: linear-gradient(90deg, rgba(235,149,98,1) 0%, rgba(224,207,167,1) 100%);
 }
 
+.main-link:hover{
+    box-shadow: 5px 5px 22px 6px rgba(0,0,0,0.47);
+}
+
+
 .main-left{
     width:50%;
 }
@@ -126,8 +121,6 @@ nav li {
 
 #categories > a{
     text-decoration: none;
-    
-    
 }
 
 #categories > a > div{
@@ -136,53 +129,10 @@ nav li {
     display: flex;
     align-items:flex-end;
     padding-bottom: 40px;
-    
 }
 
 a{
     text-decoration: none;
-}
-
-.categories-item-1{
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:50%;
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/index/categories/categories-1.png);
-}
-
-.categories-item-2{
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/index/categories/categories-2.png);
-}
-
-.categories-item-3{
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/index/categories/categories-3.png);
-}
-
-.categories-item-4{
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/index/categories/categories-4.png);
-}
-
-.categories-text{
-    color:white;
-    font-size:40px;
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.42);
-    padding:4px 30px;
-    margin-left: 20px;
-    
-}
-
-.categories-text::after{
-    content: " >";
 }
 
 .index-title{
@@ -191,8 +141,6 @@ a{
     text-align: center;
     margin-bottom: 20px;
 }
-
-
 
 .why-block{
     display:flex;
@@ -224,7 +172,6 @@ h3{
 .why-text{
     font-weight: 300;
     font-size: 20px;
-    
 }
 
 .why-p{
@@ -241,7 +188,6 @@ h3{
 
 .feedback-block-left{
     width: 500px;
-    
 }
 
 .feedback-block-left > h3{
@@ -265,8 +211,6 @@ h3{
     flex-wrap: wrap;
     gap:100px;
 }
-
-
 
 .feedback-input{
     width: 350px;
@@ -309,7 +253,6 @@ footer  .wrapper > *{
     display: flex;
     flex-direction: column;
     justify-items: center;
-    
 }
 
 footer  .wrapper > :nth-child(3){
@@ -330,7 +273,6 @@ footer  .wrapper > :nth-child(3){
     color:white;
     text-align: center;
     padding-bottom: 30px;
-    
 }
 
 
@@ -338,7 +280,6 @@ footer  .wrapper > :nth-child(3){
 .footer-logo{
     margin-bottom:20px;
     margin-top: 40px;
-    
 }
 
 .qr{
@@ -349,9 +290,6 @@ footer  .wrapper > :nth-child(3){
 .about-us-lb{
     width: 350px;
 }
-
-
-
 
 .about-us-h1{
     font-size: 86px;
@@ -380,7 +318,6 @@ footer  .wrapper > :nth-child(3){
     width:700px;
     display: flex;
     justify-content: center;
-    
 }
 
 
@@ -397,7 +334,6 @@ footer  .wrapper > :nth-child(3){
     align-items:center;
     gap:100px;
     margin-top: 150px;
-    
 }
 
 .about-city-title{
@@ -415,21 +351,15 @@ footer  .wrapper > :nth-child(3){
 .border-base{
     background-color:white;
     border:1px solid black;
-   
 }
 
 .border-mask{
-    
     background-color:white;
     border-radius:20px;
-    
-    
 }
 
 .floor-map{
     padding: 40px;
-    
-    
 }
 
 #floor-plan{
@@ -468,7 +398,6 @@ footer  .wrapper > :nth-child(3){
 #about-city{
     margin-top:200px;
     margin-bottom: 50px;
-    
 }
 
 #about-city .wrapper{
@@ -491,8 +420,7 @@ footer  .wrapper > :nth-child(3){
     margin-bottom:20px;
 }
 
-.action-link{
-     
+.action-link{    
     margin-top: 50px;
     text-decoration: none;
     color:white;
@@ -510,20 +438,17 @@ footer  .wrapper > :nth-child(3){
 }
 
 #apartments .wrapper :first-child :nth-child(3) {
-    margin-bottom: 80px;
-    
+    margin-bottom: 80px; 
 }
 
 #apartments h1 {
         font-size: 86px;
         color:000;
         margin-bottom: 80px;
-    
 }
 
 #apartments  p {
     font-size: 16px;
-    
     margin-bottom: 20px;
 }
 
@@ -554,7 +479,6 @@ footer  .wrapper > :nth-child(3){
     gap:25px;
     justify-content: center;
     align-items:center;
-    
 }
 
 .a-item-image{
@@ -586,7 +510,6 @@ footer  .wrapper > :nth-child(3){
 #item-full .wrapper :first-child{
     display: flex;
     gap:25px;
-
 }
 
 #item-full{
@@ -602,7 +525,6 @@ footer  .wrapper > :nth-child(3){
 
 .item-full-start h1{
     font-size:34px;
-    
 }
 
 .item-full-main{
@@ -628,7 +550,6 @@ footer  .wrapper > :nth-child(3){
 #item-second-part .wrapper{
     display: flex;
     align-items: center;
-    
     flex-direction: column;
     gap:50px;
 }
@@ -678,7 +599,6 @@ footer  .wrapper > :nth-child(3){
 .contacts-page-icon{
     width: 50px;
     height: 50px;
- 
 }
 
 #contacts-block h1{
@@ -700,7 +620,6 @@ footer  .wrapper > :nth-child(3){
 
 
 @media (max-width:950px){
-
 
     .wrapper{
         width:95vw;
@@ -726,7 +645,6 @@ footer  .wrapper > :nth-child(3){
     .video{
         display:none;
     }
-
 
     .index-h1{
         margin-top: 70px;
@@ -761,18 +679,14 @@ footer  .wrapper > :nth-child(3){
         margin-bottom: 40px;
     }
 
-
     .partner-container{
-      
         gap:30px;
     }
 
     #apartments .wrapper {
         flex-direction: column;
         margin-top: 150px;
-        text-align: center;
-       
-        
+        text-align: center; 
     }
 
     .main-link{
@@ -812,8 +726,6 @@ footer  .wrapper > :nth-child(3){
         align-items:center;
     }
 
-
-
     #item-full .wrapper :first-child p {
         font-size: 1.5em;
     }
@@ -824,20 +736,18 @@ footer  .wrapper > :nth-child(3){
         text-align: center;
     }
 
-
     #item-second-part .wrapper > div {
         width:100%;
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
-
+        justify-content: center;
     }
 
     .item-full-img{
         width:40%;
         height: 40%;
     }
-
 
     .info-bg :first-child {
         flex-direction: column;
@@ -846,39 +756,38 @@ footer  .wrapper > :nth-child(3){
 
     }
 
-
     .city-image{
         width:100%
     }
-
 
     .mob-menu{
         display:none;
         position: fixed;
         top:0;
-        
         background-color: rgba(0,0,0,0.5);
         width: 100vw;
         height: 100vh;
         z-index: 9999;
-        
     }
     
     .mob-menu-bg{
-        
         position: fixed;
+        display: none;
         right:0;
         height: 100vh;
         background-color:white;
-        border-radius:2em;
+        border-radius:2em 0 0 2em;
         border-left:2em solid #8D3500;
-       
-        
-        
         width:max(50vw,400px);
-        
+        transform: translateX(70vw);
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
     }
-    
+
+    .anim-slide{
+        transform: translateX(0);
+    }
+
     .nav-link{
         font-size: 2.5em;
         padding-bottom: 20px;
@@ -886,9 +795,7 @@ footer  .wrapper > :nth-child(3){
         font-weight: 500;
         padding: 5px 33px;
         border : 1px solid #8D3500;
-
         border-radius: 2em;
-        
     }
 
     .mob-menu-ul{
@@ -900,7 +807,6 @@ footer  .wrapper > :nth-child(3){
         padding-right: 20px;
         text-decoration: none;
         list-style-type: none;
-
         padding-top: 100px;
     }
 
@@ -944,7 +850,6 @@ footer  .wrapper > :nth-child(3){
 
 @media (max-width:576px){
 
-
     .logo-top{
         width: 77px;
     }
@@ -956,13 +861,11 @@ footer  .wrapper > :nth-child(3){
         overflow: hidden;
     }
 
-
     .hamburgerBtn{
         display: flex;
         cursor: pointer;
     }
-    
-    
+     
     nav {
         display:none;
         margin:0;
@@ -973,20 +876,15 @@ footer  .wrapper > :nth-child(3){
         justify-content: space-between;
         align-items: center;
         width:90%;
-        /* gap:80vw; */
-        
     }
-
 
     .main-circle{
         display: none;
     }
 
-
     .why-block{
         gap:0;
     }
-
 
     .main-left .main-p{
         display:none;
@@ -1005,7 +903,6 @@ footer  .wrapper > :nth-child(3){
         align-items:center;
     }
 
-
     #main {
         height: 70vh;
         margin-bottom: 40px;
@@ -1022,7 +919,6 @@ footer  .wrapper > :nth-child(3){
         margin-bottom: 0;
     }
 
-    
     .form-on-bottom{
         width:90vw;
     }
@@ -1043,7 +939,6 @@ footer  .wrapper > :nth-child(3){
         gap:10px;
     }
     
-    
     footer .wrapper{
         
         height: 100%;
@@ -1058,7 +953,6 @@ footer  .wrapper > :nth-child(3){
         height: 100%;
         
     }
-
 
     #about-city{
         margin-top:150px;
@@ -1117,19 +1011,14 @@ footer  .wrapper > :nth-child(3){
         font-size:1.5em
     }
 
-
-
     .about-city-title{
         font-size: 3rem;
     }
-
-
 
     .partner-container{
         flex-direction: column;
         gap:40px;
     }
-
 
     #apartments .wrapper{
         flex-direction: column;
@@ -1157,7 +1046,6 @@ footer  .wrapper > :nth-child(3){
     #apartments .wrapper :first-child :nth-child(3){
         margin-bottom: 30px;
     }
-
 
     .a-item{
         width: 100%;
@@ -1191,7 +1079,6 @@ footer  .wrapper > :nth-child(3){
      
     }
 
-  
     #phone-img{
         display: none;
     }
@@ -1200,7 +1087,6 @@ footer  .wrapper > :nth-child(3){
         font-size: 1.5em;
     }
     
-
     .mob-menu{
         display:none;
         position: fixed;
@@ -1209,10 +1095,7 @@ footer  .wrapper > :nth-child(3){
         width: 100vw;
         height: 100vh;
         z-index: 9999;
-
     }
-
-
 
     .mob-menu-bg{
         
@@ -1220,7 +1103,7 @@ footer  .wrapper > :nth-child(3){
         right:0;
         height: 100vh;
         background-color:white;
-        border-radius:2em;
+        border-radius:2em 0 0 2em;
         border-left:2em solid #8D3500;
         width:min(70%,400px);
     }
@@ -1232,9 +1115,7 @@ footer  .wrapper > :nth-child(3){
         font-weight: 500;
         padding: 5px 15px;
         border : 1px solid #8D3500;
-
         border-radius: 2em;
-        
     }
 
     .mob-menu-ul{
@@ -1248,7 +1129,5 @@ footer  .wrapper > :nth-child(3){
         list-style-type: none;
         padding-top: 100px;
     }
-   
-
 
 }

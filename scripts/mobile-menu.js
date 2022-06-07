@@ -6,17 +6,18 @@ const menuBg = document.querySelector('.mob-menu-bg');
 
 function openMenu(){
     fullMenu.style.display = 'block';
-
+    menuBg.style.display = 'block';
+    setTimeout(()=>menuBg.classList.add('anim-slide'),0)   
     document.body.style.overflow='hidden';
 }
 
 function closeMenu(){
-    fullMenu.style.display = 'none';
+    menuBg.classList.remove('anim-slide')
+    setTimeout(() => {
+        fullMenu.style.display = 'none'
+        menuBg.style.display = 'none';},501)
+    
     document.body.style.overflow = '';
-
-
-
-
 }
 
 
@@ -30,11 +31,7 @@ fullMenu.addEventListener('click',(e)=>{
 
 
 
-// // window.addEventListener('click',(e)=>{
-// //     if (fullMenu.style.display = block && e.target == menuBg) {
-// //         closeMenu();
-// //     }
-// // })
+
 
 
 
