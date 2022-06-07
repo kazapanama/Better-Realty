@@ -6,11 +6,17 @@ const menuBg = document.querySelector('.mob-menu-bg');
 
 function openMenu(){
     fullMenu.style.display = 'block';
+
+    document.body.style.overflow='hidden';
 }
 
 function closeMenu(){
     fullMenu.style.display = 'none';
-    document.body.overflow = 'hidden'
+    document.body.style.overflow = '';
+
+
+
+
 }
 
 
